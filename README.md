@@ -18,16 +18,6 @@ One self-contained HTML file. No build step, no dependencies, no server-side any
 
 Nothing is transmitted or stored: no accounts, no analytics, no cookies, no saved progress. Students need only the link.
 
-## Publishing to GitHub Pages
-
-1. Create a repository and add `index.html` and this README at the root.
-2. In the repository, go to **Settings → Pages**.
-3. Under **Source**, choose **Deploy from a branch**.
-4. Select branch `main` and folder `/ (root)`, then **Save**.
-5. After a minute the site is live at `https://<user>.github.io/<repo>/`.
-
-Because the file is named `index.html` and sits at the root, that URL serves the game directly — no subpath needed.
-
 ## Typography
 
 Hebrew is set in **SBL Hebrew** (Tiro Typeworks, v1.56a), embedded in the file so every student sees the same rendering regardless of what is installed on their machine. The `@font-face` rule lists `local("SBL Hebrew")` first, so anyone who already has it installed loads their own copy and skips the ~315 KB download.
